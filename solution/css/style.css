@@ -1,0 +1,99 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url(../img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+h1.display-4 {
+  font-size: 5.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+} 
+
+input[type=text], input[type=email], input[type=password], input[type=submit] {
+  height: 5rem;
+}
+
+.explore-head-section {
+  padding-bottom: 3rem!important;
+  padding-top: 50px;
+}
+
+.explore-section {
+  background-color: #f8f9fa;
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
+  color: gray;
+}
+
+.create-head-section {
+  padding-bottom: 3rem!important;
+  background:#007bff;
+  padding-top: 50px;
+}
+
+.create-section {
+  background-color: #f8f9fa;
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
+  color: white;
+  background: #333;
+}
+
+.share-head-section {
+  padding-bottom: 3rem!important;
+  background:#007bff;
+  padding-top: 50px;
+}
+
+.share-section {
+  background-color: #f8f9fa;
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
+  color: gray;
+}
